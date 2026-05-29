@@ -223,3 +223,90 @@ Keep these *light* for the minimal presentation — one strong slide or appendix
 > “This is a micro reality condensing our macro reality into one project.”
 
 The farm is a compressed prototype and a gateway: governance, energy, finance, culture, technology, labor, education, media, and regeneration condensed into one operational reality — but pitched, for now, as one fundable coffee farm.
+
+-----
+
+## 7. Online data sources by node (research starting points)
+
+This section maps each node to concrete, mostly-free online sources where the team can gather the datapoints called for above. Treat it as a starting map, not an exhaustive list. Three working notes:
+
+- **Tier the sourcing the same way we tier the nodes.** Spend the most effort getting hard numbers for Tier 1 (these carry the funding decision). For Tier 3, a few credible reference points are enough.
+- **Prefer primary / institutional sources over secondary summaries.** Government agencies (FNC, IDEAM, IGAC), multilaterals (World Bank, FAO), and standard-setters (Verra, Rainforest Alliance, SCA) are citable in an investor deck; blogs and market-research press releases are not — use the latter only to find the underlying study.
+- **Localize everything to the Sierra Nevada de Santa Marta (SNSM) / Magdalena–La Guajira context where possible.** National averages are a fallback; site- or region-specific data is far more persuasive.
+
+### TIER 1 — Decision-driving
+
+**Capital Stack & Finance**
+
+- **Comparable raises / benchmarks:** Crunchbase, PitchBook (paywalled), and AgFunder’s annual *AgriFoodTech Investment Report* for regen-ag and specialty-coffee deal sizes and structures.
+- **Blended/catalytic capital models:** Convergence Finance (blended finance deal database), Root Capital and responsAbility (agricultural lending terms), IDB Invest and IFC (development-bank ag financing in Latin America).
+- **Cost/revenue baselines:** FNC and USDA FAS GAIN reports (Colombian coffee economics); World Bank commodity *Pink Sheet* for long-run price series feeding revenue models.
+- **Caveat:** treat any single comparable as indicative; build the model from a range and state assumptions explicitly.
+
+**Specialty Coffee (anchor product)**
+
+- **Price benchmarks:** [ICO Composite Indicator Price (I-CIP) and public market data](https://ico.org/resources/public-market-information/) for the commodity floor; the [Specialty Coffee Transaction Guide](https://www.transactionguide.coffee/reports) for *actual* green specialty transaction prices by quality score — this is the single best source for the premium-vs-commodity spread.
+- **Quality/standards:** [Specialty Coffee Association (SCA)](https://sca.coffee) cupping protocols and scoring; Coffee Quality Institute (Q-grader scores) for what a given cupping score is worth.
+- **Origin/market context:** FNC ([federaciondecafeteros.org](https://federaciondecafeteros.org/?lang=en)) for Colombian production, exports, and the FoNC reference price; USDA FAS for export-market demand.
+- **Buyers/channels:** roaster transparency reports (e.g. Counter Culture, Onyx, Tim Wendelboe) publish prices paid — useful for realistic buyer expectations and direct-trade benchmarks.
+
+**Soil & Regenerative Agronomy**
+
+- **Baseline soil maps (desk study before field tests):** [ISRIC SoilGrids](https://isric.org/explore/soilgrids) (global, 250 m, organic carbon / pH / texture by depth); Colombia’s **IGAC** soil information service (SIGA, 1:100,000 mapping units and representative profiles) for national-scale detail.
+- **Carbon/regen baselines & methods:** FAO (GSOC map, RECSOIL), CIAT / Alliance of Bioversity & CIAT (tropical agroforestry and Colombian coffee agronomy research).
+- **Hard truth:** desk sources establish *context and trajectory*; defensible yield and credit claims require **on-site soil tests** — budget for them in Phase 1.
+
+**Water Systems**
+
+- **Hydrology / rainfall:** [IDEAM](https://www.un-spider.org/colombia-institute-hydrology-meteorology-and-environmental-studies-ideam) (Colombia’s hydrology & meteorology institute) for station data, flows, and precipitation; the [CGIAR post-processed SNSM climate dataset](https://www.cgiar.org/research/publication/post-processed-climate-dataset-sierra-nevada-de-santa-marta-snsm-region-colombia/) (1 km precipitation, temperature, PET) is purpose-built for this exact region.
+- **Water rights / regulation:** CORPAMAG (regional environmental authority for Magdalena) and ANLA for concession and permitting rules.
+- **Processing water footprint:** SCA / published wet-mill studies and Rainforest Alliance water criteria for litres-per-kg benchmarks and greywater/eco-pulping options.
+- **Note:** spring flow and seasonality ultimately need on-site measurement; remote data sizes the question.
+
+**Processing & Facility**
+
+- **Equipment & method specs:** manufacturer data (Penagos, Pinhalense for wet/dry mills; optical sorters from Bühler/Cimbria) for capex and throughput; SCA and Perfect Daily Grind / *Coffee Research* for process trade-offs (washed/honey/natural, drying, fermentation control).
+- **Loss/yield benchmarks:** published green-coffee outturn and defect-loss figures from FNC technical guides and academic wet-milling studies.
+- **Traceability/compliance:** **EU Deforestation Regulation (EUDR)** guidance — increasingly a hard requirement for export-grade traceability and a selling point for Option B.
+
+### TIER 2 — Strengthens the case
+
+**Solar & Energy Infrastructure**
+
+- **Solar resource:** [Global Solar Atlas](https://globalsolaratlas.info/download) (World Bank/Solargis) — free GHI/PVOUT GeoTIFFs and site PDF reports for the exact coordinates; NASA POWER for long-run irradiance/temperature series.
+- **Drying energy needs:** published coffee-drying thermal/energy studies and equipment datasheets (mechanical vs solar/parabolic dryers).
+- **Costs:** IRENA *Renewable Power Generation Costs* and NREL benchmarks for panel/battery/pump cost curves; local installer quotes for grounding.
+
+**Labor & Intercultural Coordination**
+
+- **Wage / labor structure:** Colombia’s DANE (labor statistics, rural wages) and Ministerio del Trabajo (minimum wage, rural labor law).
+- **Fair-labor frameworks:** ILO conventions, Fairtrade and Rainforest Alliance labor criteria for "fair and durable" benchmarks.
+- **Indigenous sovereignty:** ONIC and CIT (Confederación Indígena Tairona) for Arhuaco governance context; ILO Convention 169 / Colombia’s *consulta previa* (prior-consultation) law — essential for getting the social-license framing right and respectful.
+
+**Agroforestry & Local Distribution**
+
+- **Species & systems:** CIAT/CIPAV and World Agroforestry (ICRAF) for shade-coffee and agroforestry species, yields, and design; FAO for diversified-output data.
+- **Local market/food-system context:** DANE agricultural census and Colombia’s SIPSA (price/supply system) for what diversified outputs can fetch locally and regionally.
+
+**Partnerships**
+
+- **Validate candidates directly:** [Rainforest Alliance](https://www.rainforest-alliance.org/coffee/) (note the new **Regenerative Agriculture Standard, effective March 2026** — directly relevant), Del Agua, Regenerates.co — pull each org’s published criteria, reports, and case studies.
+- **Find adjacent partners:** Regen Network, Savory Institute / Land to Market, and specialty-coffee importer directories (e.g. SCA membership) for de-risking and credibility partners.
+
+### TIER 3 — Vision & expansion (keep light)
+
+**Ancestral / Cosmological Practices** — Academic/ethnographic sources only, handled with care and Arhuaco consent: peer-reviewed work on SNSM indigenous ecological knowledge (e.g. Frontiers in Climate, ScienceDirect studies on SNSM), ONIC/CIT materials. Do **not** treat sacred knowledge as a "datapoint" to be scraped — source ethically and with permission.
+
+**Media & Narrative** — Industry benchmarks from documentary/impact-media case studies; YouTube/Patreon creator economics; B-Corp and regen-brand storytelling examples. Mostly qualitative.
+
+**Tourism, Education & Healing** — [Grand View Research / market reports](https://www.grandviewresearch.com/industry-analysis/ecotourism-market-report) for ecotourism market size and growth (use the figures, cite the underlying report); ANATO and ProColombia for Colombia-specific ecotourism demand; comparable retreat/eco-lodge pricing from operator websites. Treat market-research press numbers as directional.
+
+**Governance & Tokenomics** — Regen Network, Celo / ReFi ecosystem docs, and academic regenerative-economics literature; existing bioregional-treasury and cooperative case studies. Conceptual at this stage.
+
+**Regen Tech (MRV / Web3 / AI / Infra)** —
+
+- *MRV / credits:* [Verra (VCS, incl. VM0042 soil/ag methodology)](https://www.green.earth/news/verra-updates-soil-carbon-methodology-for-clearer-reporting) and [Gold Standard](https://globalgoals.goldstandard.org) for carbon/biodiversity credit methodologies and pricing — these double as the Soil node’s credit-revenue evidence.
+- *Web3 / traceability:* Regen Network, Toucan, and coffee-provenance pilots for traceability rails.
+- *Connectivity/sensors:* commercial IoT/LoRaWAN and satellite-connectivity (e.g. Starlink) specs and costs for rural-compute feasibility.
+
+**Cross-cutting (feeds the Strategic Fork and Capital):** World Bank commodity *Pink Sheet*, FAOSTAT, and OEC (Observatory of Economic Complexity) for trade flows — useful background for both Option A and Option B framing.
