@@ -310,3 +310,38 @@ This section maps each node to concrete, mostly-free online sources where the te
 - *Connectivity/sensors:* commercial IoT/LoRaWAN and satellite-connectivity (e.g. Starlink) specs and costs for rural-compute feasibility.
 
 **Cross-cutting (feeds the Strategic Fork and Capital):** World Bank commodity *Pink Sheet*, FAOSTAT, and OEC (Observatory of Economic Complexity) for trade flows — useful background for both Option A and Option B framing.
+
+-----
+
+## 8. Global coffee price trend, last 5 years (feeds the Specialty Coffee + Capital nodes)
+
+**What this is:** the **ICO Composite Indicator Price (I-CIP)** — the industry’s standard world reference price for green (unroasted) coffee, published by the International Coffee Organization in US cents per pound. This is the **commodity baseline**. Specialty coffee — what Finca Duna would sell — trades at a **premium above** this line (see the takeaway below). Use it to show market direction, not as our expected sale price.
+
+### Calendar-year averages (US¢/lb)
+
+| Year | I-CIP avg (¢/lb) | ≈ US$/lb | Direction & notes |
+|------|------------------|----------|-------------------|
+| 2021 | ≈ 151 *(approx.)* | ≈ $1.51 | Sharp climb through the year: ~119¢ (Feb) → 203¢ (Dec) on frost/drought in Brazil. |
+| 2022 | ≈ 179 *(approx.)* | ≈ $1.79 | Peaked ~210¢ mid-year, eased to 157¢ by December. |
+| 2023 | **165** *(confirmed)* | $1.65 | Range-bound year; ICO 12-month average 165.23¢ (Dec 2023). |
+| 2024 | **229** *(confirmed)* | $2.29 | Up ~40% YoY; ICO: “I-CIP closes 2024… averaging 229.34¢/lb.” Closed Dec near 299¢. |
+| 2025 | ≈ 310 *(est., record yr)* | ≈ $3.10 | All-time highs: Feb 354.32¢ (highest monthly avg on record); Dec 304.68¢. |
+| 2026 (YTD) | ~266–274 | ~$2.66–2.74 | Mar 273.70¢, Apr 266.24¢ — easing from 2025 peak but still historically very high. |
+
+*Confirmed = stated directly in ICO monthly reports. Approx./est. = reconstructed from ICO monthly figures where ICO did not publish a single headline annual average; treat the ≈ values as indicative, verify exact figures from the ICO Excel series ([stats@ico.org](mailto:stats@ico.org)) before putting them in an investor deck.*
+
+### The trend in one line
+
+Green coffee **roughly doubled** from ~$1.51/lb (2021) to ~$2.29/lb (2024), then spiked to an **all-time record in 2025** (~$3.10/lb avg, $3.54 peak in Feb), and is **easing modestly in 2026** while staying near historic highs. Drivers: repeated Brazil/Vietnam supply shocks (frost, drought), low global stocks, and currency moves.
+
+### The takeaway that matters for the farm
+
+- **This is the commodity floor, not our price.** Specialty coffee sells *above* the I-CIP. In Q1 2026, specialty retail prices rose 3.9% while commodity prices fell 7.2% — specialty is structurally **decoupling upward** from the commodity market.
+- **Colombian Milds trade above the composite.** Colombia’s washed Arabica is its own (higher) ICO group indicator — our regional baseline is above the world composite.
+- **For the deck, layer two lines:** (1) this I-CIP commodity trend, and (2) actual specialty green prices for comparable cup scores from the [Specialty Coffee Transaction Guide](https://www.transactionguide.coffee/reports). The gap between them *is* the regenerative/specialty premium thesis.
+
+### Sources
+
+- [ICO — Public Market Information (I-CIP)](https://ico.org/resources/public-market-information/) and Monthly Coffee Market Reports (2021–2026).
+- ICO Coffee Market Reports: [Dec 2024 — “closes 2024… averaging 229.34¢”](https://www.ico.org/documents/cy2024-25/cmr-1224-e.pdf), [Jan 2025 — “breaches 310¢”](https://www.ico.org/documents/cy2024-25/cmr-0125-e.pdf), [Feb 2025 — record monthly high](https://www.ico.org/documents/cy2024-25/cmr-0225-e.pdf), [Dec 2025 — 304.68¢, down 7.8%](https://www.ico.org/documents/cy2025-26/cmr-1225-e.pdf).
+- [Specialty Coffee Transaction Guide](https://www.transactionguide.coffee/reports) for specialty-vs-commodity premiums.
