@@ -25,6 +25,14 @@ specialty = [2.00, 3.50, 3.40, 3.50, 4.39]
 # Specialty 25th-75th percentile band is only published for the latest year (2024/25)
 spec_lo_2025, spec_hi_2025 = 3.70, 5.50
 
+# High-score / top-tier line (88+). SPARSE, MIXED-BASIS DATA - only anchors we can defend:
+#   2022 (2021/22): $5.11  = median for cup 88+ (solid)
+#   2023 (2022/23): $4.91  = 87-pt, 1,000-lb lot (proxy for high tier)
+#   2025 (2024/25): $5.50  = 75th-percentile of all specialty (high-score proxy, solid)
+# 2021 and 2024 omitted - no defensible 88+ figure found in accessible sources.
+topyears = [2022, 2023, 2025]
+toptier = [5.11, 4.91, 5.50]
+
 fig, ax = plt.subplots(figsize=(10, 6))
 
 # Shade the premium (gap) between specialty and commodity
@@ -36,7 +44,15 @@ ax.plot(years, commodity, marker="o", linewidth=2.5, color="#8d6e63",
         label="Commodity (ICO I-CIP, calendar-yr avg)")
 # Specialty line
 ax.plot(years, specialty, marker="o", linewidth=2.5, color="#2e7d32",
-        label="Specialty (median FOB green, Transaction Guide)")
+        label="Specialty median (FOB green, Transaction Guide)")
+# High-score / top-tier line (dashed, open markers = sparse/mixed-basis data)
+ax.plot(topyears, toptier, marker="^", markerfacecolor="white", linestyle="--",
+        linewidth=2.0, color="#1b5e20",
+        label="Top tier 88+ / 75th-pct (sparse, mixed-basis)")
+for x, y in zip(topyears, toptier):
+    ax.annotate(f"${y:.2f}", (x, y), textcoords="offset points",
+                xytext=(0, 9), ha="center", fontsize=8, color="#1b5e20",
+                fontweight="bold")
 
 # Latest-year specialty 25-75 percentile range as a vertical whisker
 ax.plot([2025, 2025], [spec_lo_2025, spec_hi_2025], color="#2e7d32",

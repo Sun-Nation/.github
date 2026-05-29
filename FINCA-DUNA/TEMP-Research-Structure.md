@@ -346,15 +346,15 @@ The commodity line above is the *floor*. The chart below overlays it with **spec
 
 ![Commodity vs specialty green coffee prices, 2021–2025](./coffee-price-trend.png)
 
-| Year | Commodity I-CIP ($/lb) | Specialty median FOB ($/lb) | Specialty premium |
-|------|------------------------|------------------------------|-------------------|
-| 2021 | ≈ 1.51 | 2.00 | +$0.49 |
-| 2022 | ≈ 1.79 | 3.50 | +$1.71 |
-| 2023 | 1.65 | 3.40 | +$1.75 |
-| 2024 | 2.29 | 3.50 | +$1.21 |
-| 2025 | ≈ 3.10 | 4.39 | +$1.29 |
+| Year | Commodity I-CIP ($/lb) | Specialty median FOB ($/lb) | Top tier 88+ / 75th-pct ($/lb) | Specialty premium |
+|------|------------------------|------------------------------|--------------------------------|-------------------|
+| 2021 | ≈ 1.51 | 2.00 | — | +$0.49 |
+| 2022 | ≈ 1.79 | 3.50 | 5.11 *(88+ median)* | +$1.71 |
+| 2023 | 1.65 | 3.40 | ~4.91 *(87-pt lot, proxy)* | +$1.75 |
+| 2024 | 2.29 | 3.50 | — | +$1.21 |
+| 2025 | ≈ 3.10 | 4.39 | 5.50 *(75th-pct)* | +$1.29 |
 
-*Specialty = overall median FOB green price; Transaction Guide crop years (e.g. 2024/25) mapped to their later calendar year. In 2024/25 the specialty 25th–75th percentile range was $3.70–$5.50/lb, and 86–87.9-point lots had a median around $4.38/lb — i.e. quality scoring pushes well above the median line.*
+*Specialty median = overall median FOB green price; Transaction Guide crop years (e.g. 2024/25) mapped to their later calendar year. The **top-tier line is deliberately sparse and mixed-basis**: $5.11 (2021/22) is the median for cup-88+ lots, $4.91 (2022/23) is a 1,000-lb 87-point lot used as a proxy, and $5.50 (2024/25) is the 75th percentile of all specialty. We could not find a defensible clean 88+ median for 2021 or 2024 in accessible sources, so those points are omitted rather than fabricated. For 2023/24, 86–87.9-point lots had a median around $4.38/lb. The takeaway — top-quality lots clear ~$5/lb and the C-market barely touches them — holds; the precise per-year 88+ figures should be lifted straight from the by-score tables in the Transaction Guide PDFs before final use.*
 
 **What the overlay shows:**
 
